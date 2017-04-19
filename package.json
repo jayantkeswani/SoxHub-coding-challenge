@@ -1,0 +1,29 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "description": "Coding challenge for SoxHub",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayantkeswani/SoxHub-coding-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayantkeswani/SoxHub-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/jayantkeswani/SoxHub-coding-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cron-parser": "^2.4.0",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai-http": "^3.0.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
